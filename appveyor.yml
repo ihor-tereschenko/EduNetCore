@@ -3,5 +3,5 @@ configuration: Release
 cache: 
     - packages -> **\packages.config
 build: 
-    project: HomeWork3.csproj
+    project: HomeWork3\HomeWork3.sln
     publish_wap: true
