@@ -2,7 +2,7 @@ version: 1.0.{build}
 configuration: Release
 cache: 
     - packages -> **\packages.config
-before_build: nuget restore
+before_build: nuget restore HomeWork3
 build: 
     project: HomeWork3\HomeWork3.sln
     publish_wap: true
